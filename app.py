@@ -6,7 +6,7 @@ from flask_cors import CORS
 app = Flask(__name__)
 CORS(app)  # Allow all cross-origin requests (for frontend)
 
-OPENROUTER_API_KEY = "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"
+OPENROUTER_API_KEY = "your_openrouter_key_here"
 
 @app.route("/chat", methods=["POST"])
 def chat():
